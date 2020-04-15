@@ -1,6 +1,7 @@
 # squid-proxy
 
 [![License](https://img.shields.io/badge/license-MIT-green.svg)](https://github.com/yegor256/total/squid-proxy/master/LICENSE.txt)
+[![Build Status](https://cloud.drone.io/api/badges/charlieegan3/squid-proxy/status.svg)](https://cloud.drone.io/charlieegan3/squid-proxy)
 
 This [Docker](https://www.docker.com/)
 image helps you start your own [Squid](http://www.squid-cache.org/) proxy server, with
