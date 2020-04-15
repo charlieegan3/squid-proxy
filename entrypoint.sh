@@ -8,7 +8,7 @@ if [ -z "${ENV_PATH}" ]; then
   exit
 fi
 
-source
+source ${ENV_PATH}
 
 if [ -z "${USERNAME}" ]; then
   echo "You have to specify the USERNAME"
