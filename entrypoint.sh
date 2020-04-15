@@ -3,12 +3,17 @@
 set -x
 set -e
 
+if [ -z "${ENV_PATH}" ]; then
+  echo "You have to specify the ENV_PATH"
+  exit
+fi
+
 if [ -z "${USERNAME}" ]; then
-  echo "You have to specify the -e USERNAME=... argument"
+  echo "You have to specify the USERNAME"
   exit
 fi
 if [ -z "${PASSWORD}" ]; then
-  echo "You have to specify the -e PASSWORD=... argument"
+  echo "You have to specify the PASSWORD"
   exit
 fi
 
