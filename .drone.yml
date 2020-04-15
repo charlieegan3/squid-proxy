@@ -2,6 +2,9 @@ kind: pipeline
 type: docker
 name: proxy-arm
 
+platform:
+  arch: arm
+
 steps:
 - name: set-tags
   image: busybox
